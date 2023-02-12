@@ -1,5 +1,5 @@
 # foondamate-email-classifier
-Email classifier for foondamate ML Challenge 🚀
+Email classifier for foondamate's ML Challenge 🚀
 
 Uses a RandomForestClassifier to classify e-mails between two labels -  _“Student has shared”_ or _“Student wants to know if can share”_
 
@@ -15,9 +15,9 @@ Our email classifier is exposed as a python librray so all you have to do is imp
 
 ```
 from classifier.classifier import Classifier
-classifier = Classifier('model.pkl')
+classifier = Classifier('model.pkl') # Path of pickled ML model
 ```
-Please consult _demo.ipynb_ notebook for an example.
+You may consult _demo.ipynb_ notebook for a complete example.
 
 ### Model creation
 
