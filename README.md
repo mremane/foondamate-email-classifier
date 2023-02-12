@@ -1,7 +1,7 @@
 # foondamate-email-classifier
 Email classifier for foondamate ML Challenge 🚀
 
-Uses a RandomForestClassifier to classify text between two labels -  _“Student has shared”_ or _“Student wants to know if can share”_
+Uses a RandomForestClassifier to classify e-mails between two labels -  _“Student has shared”_ or _“Student wants to know if can share”_
 
 ### Requirements.txt
 File is available with all required libraries for import
