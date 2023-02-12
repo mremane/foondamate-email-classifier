@@ -1,10 +1,24 @@
 # foondamate-email-classifier
 Email classifier for foondamate ML Challenge
 
--- Create a new env using the requirements.txt file available
+Uses a RandomForestClassifier to classify text between two labels -  _“Student has shared”_ or _“Student wants to know if can share”_
 
--- Run tests with command python -m unittest
+### Requirements.txt
+File is available with all required libraries for import
 
--- Function is exposed as a librray.
+### Unit tests
+You may run tests with command ```python -m unittest```
 
-Demo notebook has an example on how to import the classifier to your code.
+### Import function
+
+Our email classifier is exposed as a python librray so all you have to do is import it into your code.
+
+```
+from classifier.classifier import Classifier
+classifier = Classifier('model.pkl')
+```
+Please consult _demo.ipynb_ notebook for an example.
+
+### ToDo
+- Automate python unit tests (CI)
+- Fix .gitignore
