@@ -21,7 +21,7 @@ Please consult _demo.ipynb_ notebook for an example.
 
 ### Model creation
 
-Documented process of model creation from wrangling to creation is available on _ml-e2e.ipynb_ notebook.
+Documented process of model creation can be found on _ml-e2e.ipynb_ notebook.
 
 ### ToDo
 - Automate python unit tests (CI)
