@@ -1,5 +1,5 @@
 # foondamate-email-classifier
-Email classifier for foondamate ML Challenge
+Email classifier for foondamate ML Challenge 🚀
 
 Uses a RandomForestClassifier to classify text between two labels -  _“Student has shared”_ or _“Student wants to know if can share”_
 
